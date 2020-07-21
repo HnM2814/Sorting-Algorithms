@@ -26,8 +26,8 @@
 
 
       Time Complexicity: 
-      In worst case we need to go with all the elements so it will be O(n square)
-      In avg/best case we will have O(nlogn)
+      In worst case we need to go with all the elements so it will be O(n2)
+      In avg/best case we will have O(n log n)
 */
 
 class QuickSort{
@@ -74,10 +74,6 @@ class QuickSort{
     }
 }
 
-let qSort = new QuickSort();
+const qSort = new QuickSort();
 let array = [7,6,10,5,9,2,1,15,7];
-console.log("Before Sort: ", JSON.parse(JSON.stringify(array)));
-
 qSort.sort(array, 0, array.length-1);
-
-console.log("After Sort: ", JSON.parse(JSON.stringify(array)));
