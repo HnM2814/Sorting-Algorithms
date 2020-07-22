@@ -21,7 +21,9 @@
     - once this inner loop is over we will have min with position of Min element in the array
     - compare this min with current i and if they both are not eaual that means 
         - element at i position > element at min position
-        - so swap those two eleemnts
+        - so swap those two elements
+        
+    Time Comlexicity: O(n2)
 */
 
 class SelectionSort{
