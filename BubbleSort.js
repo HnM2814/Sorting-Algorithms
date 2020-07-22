@@ -2,8 +2,8 @@
     - The key idea is loop through the array for n-1 passes.
            no of passes = n-1
     - At every pass, loop through the array and compare adjacent elements
-    - is elemnts at i position is gteater than elemnts at i+1 position then
-        swap those two elemnts
+    - if element at i position is greater than element at i+1 position then
+        swap those two elements
     - By doing so at every pass the max element bubbled up at it's respective position
         i.e at 1st pass largest element will bubble up at last position 
         then at 2nd pass 2nd largest element will bubble up at 2nd last position and so on
